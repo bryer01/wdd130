@@ -1,44 +1,19 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Island+Moments&display=swap");
-
-:root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #07070a;
-  --secondary-color: #774e24;
-  --accent1-color: #af9b46;
-  --accent2-color: #004ba8;
-
-  /* change the values below to your chosen font(s) */
-  --heading-font: "Island Moments";
-  --paragraph-font: Dancing Script, Helvetica, sans-serif;
-
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #07070a; /* headlines on a white background */
-  --headline-color-on-color: #774e24; /* headlines on a colored background */
-  --paragraph-color-on-white: #004ba8; /* paragraph text on a white background */
-  --paragraph-color-on-color: #af9b46; /* paragraph text on a colored background */
-  --paragraph-background-color: #07070a;
-  --nav-link-color: #07070a;
-  --nav-background-color: #af9b46;
-  --nav-hover-link-color: #004ba8;
-  --nav-hover-background-color: #774e24;
-}
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
-  max-width: 960px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 32px;
   text-align: center;
+  background-color: #07070a;
 }
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 1600px;
+  min-width: 350px;
+}
+#background {
+  height: 725px;
 }
 h1,
 h2,
@@ -54,14 +29,14 @@ h2 {
 }
 hr {
   height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
+  margin: 0 auto;
+  background: var(-#af9b46);
 }
 header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: var(-#07070a);
 }
 header > h1,
 header > h2 {
@@ -75,7 +50,7 @@ p {
 .colors {
   width: 100%;
   min-width: 350px;
-  margin: 30px auto;
+  margin: 0 auto;
   text-align: center;
 }
 .colors th {
@@ -86,16 +61,16 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: var(-#07070a);
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: var(-#774e24);
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: var(-#af9b46);
 }
 .accent2 {
-  background-color: var(--accent2-color);
+  background-color: var(-#004ba8);
 }
 p.colored {
   background-color: var(--paragraph-background-color);
@@ -119,11 +94,11 @@ nav a {
 }
 nav a:link,
 nav a:visited {
-  color: var(--nav-link-color);
+  color: var(-#07070a);
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: var(-#004ba8);
 }
 .sitemap {
   display: grid;
