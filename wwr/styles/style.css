@@ -39,7 +39,7 @@ header {
 }
 header > h1,
 header > h2 {
-  color: var(--headline-color-on-color);
+  color: var(--#af9b46);
 }
 p {
   font-family: var(--paragraph-font);
@@ -53,7 +53,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #af9b46;
 }
 .colors td {
   width: 25%;
@@ -113,4 +113,10 @@ nav a:hover {
 }
 .sitemap > div {
   text-align: center;
+}
+h4 {
+  background-color: #004ba8;
+}
+p {
+  background-color: #07070a;
 }
