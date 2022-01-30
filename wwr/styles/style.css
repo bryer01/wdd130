@@ -16,10 +16,7 @@ img {
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
@@ -34,7 +31,7 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--paragraph-color-on-color);
+  color: var(-#af9b46);
   background-color: var(-#07070a);
 }
 header > h1,
@@ -111,12 +108,12 @@ nav a:hover {
     ". left left right right ."
     "page2 page2 . . page3 page3";
 }
-.sitemap > div {
-  text-align: center;
-}
-h4 {
+h2 {
   background-color: #004ba8;
 }
 p {
   background-color: #07070a;
+}
+html {
+  background-color: red;
 }
