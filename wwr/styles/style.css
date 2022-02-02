@@ -108,6 +108,7 @@ h4 {
 footer h3 {
   background-color: #07070a;
   color: #af9b46;
+  text-align: left;
 }
 footer a {
   background-color: #774e24;
@@ -130,4 +131,7 @@ footer a:hover {
 }
 .mountains {
   padding-right: 500px;
+}
+.social {
+  text-align: left;
 }
