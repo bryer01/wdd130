@@ -6,29 +6,19 @@ body {
   color: #07070a;
 }
 img {
-  display: block;
   margin: 0 auto;
-  max-width: 1600px;
-  min-width: 350px;
 }
 #background {
   height: 725px;
   color: #004ba8;
 }
-div {
-  max-width: 1600px;
-  width: block;
-  text-align: center;
-}
+
 #content {
-  max-width: 1600px;
   margin: 0 auto;
 }
-h2 {
-  text-align: center;
-}
+
 header {
-  text-align: center;
+  text-align: left;
   color: #af9b46;
   background-color: #774e24;
 }
@@ -118,7 +108,6 @@ h4 {
 footer h3 {
   background-color: #07070a;
   color: #af9b46;
-  text-decoration: underline;
 }
 footer a {
   background-color: #774e24;
@@ -132,9 +121,13 @@ footer a:hover {
 }
 .icon {
   width: 80px;
-  height: 80px;
-  text-align: left;
 }
 #hero-img {
   width: 100%;
+}
+.logo {
+  width: 80px;
+}
+.mountains {
+  padding-right: 500px;
 }
