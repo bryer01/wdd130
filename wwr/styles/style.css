@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Island+Moments&display=swap");
+
+body {
+  max-width: 1600px;
+  font-size: 22px;
+  text-align: center;
+  background-color: #af9b46;
+  color: #07070a;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+img {
+  margin: 0 auto;
+}
+#background {
+  height: 725px;
+  color: #07070a;
+}
+
+#content {
+  margin: 0 auto;
+}
+
+header {
+  text-align: left;
+  color: #af9b46;
+  background-color: #774e24;
+}
+.primary {
+  background-color: #07070a;
+}
+.secondary {
+  background-color: #774e24;
+}
+.accent1 {
+  background-color: #af9b46;
+}
+.accent2 {
+  background-color: #004ba8;
+}
+nav a {
+  text-align: center;
+  color: #004ba8;
+  text-decoration: none;
+  padding: 35px;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h4 {
+  text-align: center;
+}
+.buttonbox {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+nav a:link,
+nav a:visited {
+  color: #004ba8;
+}
+nav a:hover {
+  color: #af9b46;
+  background-color: #004ba8;
+}
+.book,
+.join {
+  background-color: #07070a;
+  color: #774e24;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.book:hover {
+  background-color: #774e24;
+  color: #07070a;
+}
+.join:hover {
+  background-color: #774e24;
+  color: #004ba8;
+}
+#background {
+  background-color: #004ba8;
+  color: #774e24;
+}
+.msg {
+  background-color: #004ba8;
+  color: #07070a;
+  line-height: 1.5em;
+  padding: 35px;
+}
+footer {
+  background-color: #07070a;
+  color: #af9b46;
+  margin-bottom: -5%;
+  text-align: left;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+.home-title {
+  background-color: #07070a;
+  color: #774e24;
+  font-family: "Island Moments", "Dancing Script", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+h4 {
+  background-color: #774e24;
+  color: #af9b46;
+}
+.msg h2 {
+  background-color: #af9b46;
+  color: #004ba8;
+  font-family: "Island Moments", "Dancing Script", sans-serif;
+}
+.msg p {
+  background-color: #af9b46;
+  color: #07070a;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+footer h3 {
+  background-color: #07070a;
+  color: #af9b46;
+  margin-bottom: 0%;
+  width: 100%;
+}
+footer a {
+  background-color: #07070a;
+  color: #af9b46;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: #07070a;
+  color: #004ba8;
+  text-decoration: underline;
+}
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+#hero-img {
+  width: 100%;
+}
+.logo {
+  width: 80px;
+}
+.mountains {
+  padding-right: 500px;
+}
+.social {
+  text-align: left;
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.camping-card,
+.rapids-card,
+.rivers-card {
+  margin-top: 200px;
+}
+.card-img {
+  border: 10px solid #07070a;
+}
+main section img {
+  box-sizing: border-box;
+}
