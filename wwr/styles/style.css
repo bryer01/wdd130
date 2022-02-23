@@ -27,7 +27,6 @@ img {
 }
 
 header {
-  text-align: left;
   color: #af9b46;
   background-color: #774e24;
   display: grid;
@@ -108,8 +107,6 @@ nav a:hover {
 footer {
   background-color: #07070a;
   color: #af9b46;
-  margin-bottom: -5%;
-  text-align: left;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -205,6 +202,10 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -213,17 +214,11 @@ nav {
 #hero-box {
   grid-column: 1/4;
   grid-row: 1/3;
-  z-index: -1;
-  margin-top: 80px;
 }
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
-  display: grid;
-}
-#home-grid {
-  display: grid;
-  grid-template-columns: repeat(10 1fr);
+  margin-top: 100px;
 }
 .card-img,
 .mountains {
@@ -244,6 +239,10 @@ nav {
 .card-img:hover {
   opacity: 0.6;
   transform: scale(1.1);
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
 }
 @media screen and (max-width: 900px) {
   #hero,
