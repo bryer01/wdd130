@@ -42,3 +42,11 @@ main {
 img {
   width: 100%;
 }
+.home-grid {
+  margin-top: 200px;
+}
+.lifting-img {
+  border: 10px solid;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px;
+}
