@@ -1,0 +1,34 @@
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+footer {
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 125px;
+}
+.social {
+  width: 50px;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.topnav {
+  text-align: center;
+}
+.home-title {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+main {
+  text-align: left;
+}

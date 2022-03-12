@@ -10,21 +10,6 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  z-index: 3;
-  color: black;
-}
-.join {
-  background-color: #07070a;
-  color: #774e24;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 15px 30px;
-  margin-top: 50px;
-  border-radius: 5px;
-}
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
