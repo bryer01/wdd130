@@ -19,6 +19,7 @@ footer {
 .social_media {
   width: 50px;
   display: inline-block;
+  text-align: left;
 }
 nav {
   display: grid;
