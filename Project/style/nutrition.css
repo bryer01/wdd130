@@ -2,6 +2,7 @@
 header {
   display: grid;
   grid-template-columns: 150px auto;
+  font-family: lobster;
 }
 footer {
   padding: 25px 50px;
@@ -9,6 +10,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: lobster;
 }
 /* Dropdown Button */
 .dropbtn {
@@ -76,27 +78,29 @@ nav {
 .home-title {
   text-align: center;
   font-size: 2em;
+  font-family: lobster;
 }
 h2 {
   text-align: center;
   font-size: 3em;
+  font-family: lobster;
 }
 main {
   text-align: left;
   font-size: 2em;
   display: grid;
+  font-family: lobster;
 }
 
 .home-grid {
   margin-top: 200px;
 }
-.food1 {
-  width: 250px;
+.food_container {
   display: grid;
-}
-.food2 {
-  width: 250px;
-  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px 250px 250px;
+  grid-auto-flow: column;
+  gap: 20px;
 }
 
 .social_media {
@@ -104,5 +108,16 @@ main {
   display: inline-block;
 }
 .social_media img {
+  width: 100%;
+}
+.food_hidden {
+  overflow: hidden;
+}
+#food_info {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin: 0;
+}
+.food_image {
   width: 100%;
 }
